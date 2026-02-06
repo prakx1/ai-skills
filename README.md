@@ -32,8 +32,28 @@ Systematically explore and explain any modern AI or agentic codebase with ASCII 
 
 ## Installation
 
+Install all skills from this repository:
+
 ```shell
 npx skills add prakx1/ai-skills
+```
+
+Install a specific skill only:
+
+```shell
+npx skills add prakx1/ai-skills --skill explore-ai-codebase
+```
+
+Install to specific agents:
+
+```shell
+npx skills add prakx1/ai-skills --agent cursor --agent claude-code
+```
+
+List available skills without installing:
+
+```shell
+npx skills add prakx1/ai-skills --list
 ```
 
 ## Usage
