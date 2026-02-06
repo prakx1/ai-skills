@@ -13,11 +13,20 @@ Drop into any AI/agentic project and ask your agent to "explain this codebase." 
 
 ## Files
 
+```
+explore-ai-codebase/
+├── SKILL.md                              # Core exploration methodology
+├── README.md                             # This file
+└── references/
+    ├── FRAMEWORK-PATTERNS.md             # Framework-specific guides (9+ types)
+    └── DIAGRAM-TEMPLATES.md              # ASCII diagram templates
+```
+
 | File | Purpose |
 |------|---------|
 | `SKILL.md` | Core exploration methodology — the main instructions the agent follows |
-| `FRAMEWORK-PATTERNS.md` | Framework-specific guides for 9+ codebase types (MCP, LangGraph, CrewAI, AutoGen, OpenAI SDK, RAG, A2A, config-driven, hybrid) |
-| `DIAGRAM-TEMPLATES.md` | Ready-to-use ASCII diagram templates for architecture, flows, security, deployment, and more |
+| `references/FRAMEWORK-PATTERNS.md` | Framework-specific guides for 9+ codebase types (MCP, LangGraph, CrewAI, AutoGen, OpenAI SDK, RAG, A2A, config-driven, hybrid) |
+| `references/DIAGRAM-TEMPLATES.md` | Ready-to-use ASCII diagram templates for architecture, flows, security, deployment, and more |
 
 ## Supported Codebase Types
 

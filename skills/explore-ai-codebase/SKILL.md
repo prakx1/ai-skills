@@ -1,6 +1,10 @@
 ---
 name: explore-ai-codebase
 description: Explore and explain any modern AI or agentic codebase with ASCII diagrams. Covers MCP servers, LangGraph agents, CrewAI crews, AutoGen teams, OpenAI Agents SDK, RAG pipelines, A2A protocol, multi-agent systems, and any agentic architecture. Use when the user asks to explain, explore, or understand an AI codebase, agent architecture, or agentic system.
+license: MIT
+metadata:
+  author: prakx1
+  version: "1.0"
 ---
 
 # AI Codebase Explorer
@@ -34,7 +38,7 @@ Before exploring, determine **what kind** of AI codebase this is. Read the depen
 | `fastapi` + LLM calls + tool definitions | Custom Agent Framework |
 | YAML-driven tool/agent configs + HTTP proxy | Config-Driven MCP/Agent Server |
 
-**Action**: Once identified, use the matching exploration strategy from [FRAMEWORK-PATTERNS.md](FRAMEWORK-PATTERNS.md).
+**Action**: Once identified, use the matching exploration strategy from [FRAMEWORK-PATTERNS.md](references/FRAMEWORK-PATTERNS.md).
 
 ## Phase 2: Structural Discovery
 
@@ -386,5 +390,5 @@ Exploration Progress:
 
 ## Additional Resources
 
-For framework-specific patterns, see [FRAMEWORK-PATTERNS.md](FRAMEWORK-PATTERNS.md).
-For ASCII diagram templates, see [DIAGRAM-TEMPLATES.md](DIAGRAM-TEMPLATES.md).
+For framework-specific patterns, see [FRAMEWORK-PATTERNS.md](references/FRAMEWORK-PATTERNS.md).
+For ASCII diagram templates, see [DIAGRAM-TEMPLATES.md](references/DIAGRAM-TEMPLATES.md).
